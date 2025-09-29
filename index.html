@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Filip Mamcarz - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="nav" aria-label="Główna nawigacja">
+    <button class="nav__toggle" aria-controls="main-menu" aria-expanded="false">
+      <span class="nav__toggle-icon">☰</span>
+    </button>
+
+    <ul id="main-menu" class="nav__list">
+      <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+      <li class="nav__item"><a href="o-mnie.html" class="nav__link">O mnie</a></li>
+      <li class="nav__item"><a href="projekty.html" class="nav__link">Projekty</a></li>
+      <li class="nav__item"><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div id="starfield" class="starfield" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero__card container">
+        <h1 class="hero__title">Filip Mamcarz</h1>
+        <p class="hero__subtitle">Specjalizacja: JavaScript · HTML · Java · CSS · PHP</p>
+        <p class="hero__lead">
+          Tworzę przejrzyste i responsywne interfejsy oraz backendy dopasowane do potrzeb.
+        </p>
+        <div class="hero__actions">
+          <a class="button hero__button" href="projekty.html">Zobacz projekty</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <small>© 2025 Filip Mamcarz — Wszystkie prawa zastrzeżone</small>
+    </div>
+  </footer>
+</body>
+</html>
